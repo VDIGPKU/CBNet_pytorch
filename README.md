@@ -12,7 +12,8 @@ You need to convert the original backbone to cbnet version with **python convert
 
 Our CBNetv2 will be released soon.
 
-Contact us with bahuangliuhe@pku.edu.cn,wyt@pku.edu.cn
+Contact us with bahuangliuhe@pku.edu.cn,wyt@pku.edu.cn.
+
 
 
 ## Citation
@@ -20,8 +21,8 @@ Contact us with bahuangliuhe@pku.edu.cn,wyt@pku.edu.cn
 If you use our code/model/data, please cite our paper:
 https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuY.1833.pdf
 
-Our code is free for research, but needs authorization for commerce.
-
+#Our code is free for research, but needs authorization for commerce.
+**The project is only free for academic research purposes. For commerce permission, please contact wyt@pku.edu.cn.**
 
 ### Detection results on COCO val2017
 

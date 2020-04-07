@@ -1,20 +1,12 @@
-# MMDetection
-
-**News**: We released the technical report on [ArXiv](https://arxiv.org/abs/1906.07155).
-
-Documentation: https://mmdetection.readthedocs.io/
-
 # CBNet: A Novel Composite Backbone Network Architecture for Object Detection
 
 by Yudong Liu
 
-
-
 ## Introduction
 
-This repository is modified on [Cascade R-CNN](https://github.com/zhaoweicai/Detectron-Cascade-RCNN), which is re-implemented by by Zhaowei Cai and Nuno Vasconcelos on the base of [Detectron](https://github.com/facebookresearch/Detectron). 
+We have released our code at https://github.com/PKUbahuangliuhe/CBNet implemented by caffe2. Since [Detectron](https://github.com/facebookresearch/Detectron) code will not be maintained, we release our implementation based on [mmdetection](https://github.com/open-mmlab/mmdetection)
 
-Please follow [Detectron](https://github.com/facebookresearch/Detectron) on how to install the environment.
+Please follow [mmdetection](https://github.com/open-mmlab/mmdetection) on how to install the environment.
 
 
 ## Citation

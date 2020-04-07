@@ -21,8 +21,7 @@ Contact us with bahuangliuhe@pku.edu.cn,wyt@pku.edu.cn.
 If you use our code/model/data, please cite our paper:
 https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuY.1833.pdf
 
-#Our code is free for research, but needs authorization for commerce.
-**The project is only free for academic research purposes. For commerce permission, please contact wyt@pku.edu.cn.**
+**The project is only free for academic research purposes, but needs authorization for commerce. For commerce permission, please contact wyt@pku.edu.cn.**
 
 ### Detection results on COCO val2017
 

@@ -10,6 +10,8 @@ Please follow [mmdetection](https://github.com/open-mmlab/mmdetection) on how to
 
 You need to convert the original backbone to cbnet version with **python convert_db.py** or **python convert_tb.py**.
 
+Our CBNetv2 will be released soon.
+
 
 ## Citation
 
@@ -23,8 +25,8 @@ Our code is free for research, but needs authorization for commerce.
 
 |  Baseline |   Backbone          | box AP |                 
 | :-------------: | :-----: | :-----: |
-|     FPN   |   ResNext-101-32-4d     |  40.1  |
-|     FPN   |   Dual-ResNext-32-4d  | 41.5  |
-|     FPN   |   Triple-ResNext-32-4d  | 42.0  |
-|     FPN   |   Dual-ResNext-32-4d(CBNetv2)  | 43.2  |
-|Cascade R-CNN(with DCN and multi-scale training)| Dual-Res2Net101(CBNetv2)|52.5 |
+|     FPN   |   ResNext-101-32x4d     |  40.1  |
+|     FPN   |   Dual-ResNext-101-32x4d  | 41.5  |
+|     FPN   |   Triple-ResNext-101-32x4d  | 42.0  |
+|     FPN   |   Dual-ResNext-101-32x4d(**CBNetv2**)  | 43.2  |
+|Cascade R-CNN(with DCN and multi-scale training)| Dual-Res2Net101(**CBNetv2**)|52.5 |

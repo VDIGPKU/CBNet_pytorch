@@ -1,6 +1,6 @@
 # CBNet: A Novel Composite Backbone Network Architecture for Object Detection
 
-by Yudong Liu,Yongtao Wang, Siwei Wang.
+by Yudong Liu,Yongtao Wang, Siwei Wang, Tingting Liang.
 
 ## Introduction
 
@@ -31,4 +31,4 @@ Our code is free for research, but needs authorization for commerce.
 |     FPN   |   Dual-ResNext-101-32x4d  | 41.5  |
 |     FPN   |   Triple-ResNext-101-32x4d  | 42.0  |
 |     FPN   |   Dual-ResNext-101-32x4d(**CBNetv2**)  | 43.2  |
-|Cascade R-CNN(with DCN and multi-scale training)| Dual-Res2Net101(**CBNetv2**)|52.5 |
+|Cascade R-CNN(with DCN and multi-scale training)| Dual-ResNext-101-32x4d(**CBNetv2**)(**CBNetv2**)|51.6(test-dev) |

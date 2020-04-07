@@ -1,9 +1,9 @@
 # model settings
 model = dict(
     type='FasterRCNN',
-    pretrained='tb-x101-32-4d.pth',
+    pretrained='db-x101-32-4d.pth',
     backbone=dict(
-        type='TB_ResNeXt',
+        type='DB_ResNeXt',
         depth=101,
         groups=32,
         base_width=4,

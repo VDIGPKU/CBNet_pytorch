@@ -1,6 +1,6 @@
 # CBNet: A Novel Composite Backbone Network Architecture for Object Detection
 
-by Yudong Liu
+by Yudong Liu,Yongtao Wang, Siwei Wang.
 
 ## Introduction
 
@@ -11,6 +11,8 @@ Please follow [mmdetection](https://github.com/open-mmlab/mmdetection) on how to
 You need to convert the original backbone to cbnet version with **python convert_db.py** or **python convert_tb.py**.
 
 Our CBNetv2 will be released soon.
+
+Contact us with bahuangliuhe@pku.edu.cn,wyt@pku.edu.cn
 
 
 ## Citation

@@ -17,55 +17,11 @@ https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuY.1833.pdf
 Our code is free for research, but needs authorization for commerce.
 
 
-### Cascade Mask R-CNN without Bells & Whistles
+### Faster R-CNN
 
-<table><tbody>
-<!-- START BELLS TABLE -->
-<!-- TABLE HEADER -->
-<!-- Info: we use wrap text in <sup><sub></sub><sup> to make is small -->
-<th valign="bottom"><sup><sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backbone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</sub></sup></th>
-<th valign="bottom"><sup><sub>type</sub></sup></th>
-<th valign="bottom"><sup><sub>lr<br/>schd</sub></sup></th>
-<th valign="bottom"><sup><sub>im/<br/>gpu</sub></sup></th>
-<th valign="bottom"><sup><sub>box<br/>AP</sub></sup></th>
-<th valign="bottom"><sup><sub>box<br/>AP50</sub></sup></th>
-<th valign="bottom"><sup><sub>box<br/>AP75</sub></sup></th>
-<th valign="bottom"><sup><sub>mask<br/>AP</sub></sup></th>
-<th valign="bottom"><sup><sub>mask<br/>AP50</sub></sup></th>
-<th valign="bottom"><sup><sub>mask<br/>AP75</sub></sup></th>
-<!--th valign="bottom"><sup><sub>download<br/>links</sub></sup></th>
-<!-- TABLE BODY -->
-  
-<tr>
-<td align="left"><sup><sub>[X-152-32x8d-FPN-IN5k-cascade]</sub></sup></td>
-<td align="left"><sup><sub>Mask</sub></sup></td>
-<td align="left"><sup><sub>s1x</sub></sup></td>
-<td align="right"><sup><sub>1</sub></sup></td>
-<td align="right"><sup><sub>48.3</sub></sup></td>
-<td align="right"><sup><sub>67.0</sub></sup></td>
-<td align="right"><sup><sub>52.8</sub></sup></td>
-<td align="right"><sup><sub>41.0</sub></sup></td>
-<td align="right"><sup><sub>64.1</sub></sup></td>
-<td align="right"><sup><sub>44.2</sub></sup></td>
-</tr> 
-
-<tr>
-<td align="left"><sup><sub>Dual-X-152-32x8d-FPN-IN5k-cascade</sub></sup></td>
-<td align="left"><sup><sub>Mask</sub></sup></td>
-<td align="left"><sup><sub>s1x</sub></sup></td>
-<td align="right"><sup><sub>1</sub></sup></td>
-<td align="right"><sup><sub>50.0</sub></sup></td>
-<td align="right"><sup><sub>68.8</sub></sup></td>
-<td align="right"><sup><sub>54.6</sub></sup></td>
-<td align="right"><sup><sub>42.0</sub></sup></td>
-<td align="right"><sup><sub>64.6</sub></sup></td>
-<td align="right"><sup><sub>45.6</sub></sup></td>
-</tr>
-
-<!-- END BELLS TABLE -->
-</tbody></table>
-
-
-<!-- END E2E FASTER AND MASK TABLE -->
-</tbody></table>
-
+|    Backbone     |  Style  | Lr schd | Mem (GB) | Train time (s/iter) | Inf time (fps) | box AP |                                                              Download                                                              |
+| :-------------: | :-----: | :-----: | :------: | :-----------------: | :------------: | :----: | :--------------------------------------------------------------------------------------------------------------------------------: |
+|     R-50-C4     |  caffe  |   1x    |    -     |          -          |      9.5       |  34.9  |      [model](https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_caffe_c4_1x-75ecfdfa.pth)       |
+|     R-50-C4     |  caffe  |   2x    |   4.0    |        0.39         |      9.3       |  36.5  |      [model](https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_caffe_c4_2x-71c67f27.pth)       |
+|     R-50-C4     | pytorch |   1x    |    -     |          -          |      9.3       |  33.9  |         [model](https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_c4_1x-642cf91f.pth)          |
+|     R-50-C4     | pytorch |   2x    |    -     |          -          |      9.4       |  35.9  |         [model](https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_c4_2x-6e4fdf4f.pth)          |

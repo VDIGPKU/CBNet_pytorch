@@ -31,4 +31,4 @@ Our code is free for research, but needs authorization for commerce.
 |     FPN   |   Dual-ResNeXt-101-32x4d  | 41.5  |
 |     FPN   |   Triple-ResNeXt-101-32x4d  | 42.0  |
 |     FPN   |   Dual-ResNeXt-101-32x4d(**CBNetv2**)  | 43.2  |
-|Cascade R-CNN(with DCN and multi-scale training)| Dual-ResNeXt-101-32x4d(**CBNetv2**)(**CBNetv2**)|51.6(test-dev) |
+|Cascade R-CNN(with DCN and multi-scale training)| Dual-ResNeXt-101-32x4d(**CBNetv2**)(**CBNetv2**)|51.2(51.6 on 2017test-dev) |

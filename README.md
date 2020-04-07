@@ -8,7 +8,7 @@ We have released our code at https://github.com/PKUbahuangliuhe/CBNet implemente
 
 Please follow [mmdetection](https://github.com/open-mmlab/mmdetection) on how to install the environment.
 
-You need to convert the original backbone to cbnet version with python convert_db.py or python convert_tb.py.
+You need to convert the original backbone to cbnet version with **python convert_db.py** or **python convert_tb.py**.
 
 
 ## Citation

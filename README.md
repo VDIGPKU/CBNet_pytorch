@@ -27,7 +27,7 @@ https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuY.1833.pdf
 ### Detection results on COCO val2017
 
 |  Baseline |   Backbone   | Input size       | box AP |                 
-| :-------------------: | :-------------: | :-----: |:-------: |
+| :------------------------: | :-------------: | :-----: |:-------: |
 |     FPN   |   ResNext-101-32x4d     |  1333x800 | 40.1  |
 |     FPN   |   Dual-ResNeXt-101-32x4d  |  1333x800| 41.5  |
 |     FPN   |   Triple-ResNeXt-101-32x4d |  1333x800 | 42.0  |

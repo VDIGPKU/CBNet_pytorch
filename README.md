@@ -21,7 +21,8 @@ Our code is free for research, but needs authorization for commerce.
 
 ### Detection results on COCO val2017
 
-|  Baseline |   Backbone          | box AP |                                                             
+|  Baseline |   Backbone          | box AP |                 
+| :-------------: | :-----: | :-----: |
 |     FPN   |   ResNext-101-32-4d     |  40.1  |
 |     FPN   |   Dual-ResNext-32-4d  | 41.5  |
 |     FPN   |   Triple-ResNext-32-4d  | 42.0  |

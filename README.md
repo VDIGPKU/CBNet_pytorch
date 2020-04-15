@@ -1,6 +1,6 @@
 # CBNet: A Novel Composite Backbone Network Architecture for Object Detection
 
-by Yudong Liu,Yongtao Wang, Siwei Wang, Tingting Liang.
+by Yudong Liu, Tingting Liang, Yongtao Wang.
 
 ## Introduction
 
@@ -12,7 +12,7 @@ You need to convert the original backbone to cbnet version with **python convert
 
 Our CBNetv2 will be released soon.
 
-Contact us with bahuangliuhe@pku.edu.cn,wyt@pku.edu.cn.
+Contact us with bahuangliuhe@pku.edu.cn, tingtingliang@pku.edu.cn, wyt@pku.edu.cn.
 
 **The project is only free for academic research purposes, but needs authorization for commerce. For commerce permission, please contact wyt@pku.edu.cn.**
 
